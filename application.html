@@ -8,52 +8,56 @@
 </head>
 <body>
     <h1>Application form</h1>
-    <div>
-        <label for="Application for ">Application for ?</label>
+    <form action="">
+        <div>
+            <label for="Application for ">Application for ?</label>
         
-        <input type="text" name="Application" placeholder="what are you applying for">
-    </div>
-    <br>
-    <div>
-        <!-- personal info -->
-        <h3><u>Personal information</u></h3>
-        <label for="firstname">First Name</label>
-        <input type="text" name="firstname" placeholder="firstname">
-        <label for="lastname">Last Name</label>
-        <input type="text" name="last name" placeholder="last name"> 
-        <br><br>
-        <label for="date of birth"> D.O.B</label>
-        <input type="date"><br><br>
-        <div>
-            <!-- citizenship-->
-            <div><label for="citizenship"> <b>Citizenship :</b></label></div>
-             <label for="kenya">kenya</label>
-             <input type="radio" value="kenya" id="kenya" name="citizenship">
-            <div>
-             <label for="tanzania">tanzania</label>
-              <input type="radio" value="tanzania" id="tanzania" name="citizenship">
-            </div>
-            
+            <input type="text" name="Application" placeholder="what are you applying for">
         </div>
-        <div><br>
-            <!-- marital status -->
-            <div><label for="marital status"><b>Marital Satus</b></label></div>
-            <label for="single">Single</label>
-            <input type="radio" value="single" id="sinlge" name="marital status">
-            <label for="married">Married</label>
-            <input type="radio" value="married" id="married" name="marital status">
-        </div><br>
+        <br>
         <div>
-            <label for="address">Address</label>
-            <input type="text" name="address" placeholder="eg.Nairobi">
-        </div><br>
-        <label for="contact"> Contact:</label>
-        <input type="tel" placeholder="+254123456789">
-        <br><br>
-        <label for="email">email</label>
-        <input type="email" name="email" placeholder="someone@gmail.com">
-        <br><br>
-     <button type="submit">Submit Application</button>
-    </div>
+            <!-- personal info -->
+            <h3><u>Personal information</u></h3>
+            <label for="firstname">First Name</label>
+            <input type="text" name="firstname" placeholder="firstname">
+            <label for="lastname">Last Name</label>
+            <input type="text" name="last name" placeholder="last name">
+            <br><br>
+            <label for="date of birth"> D.O.B</label>
+            <input type="date"><br><br>
+            <div>
+                <!-- citizenship-->
+                <div><label for="citizenship"> <b>Citizenship :</b></label></div>
+                 <label for="kenya">kenya</label>
+                 <input type="radio" value="kenya" id="kenya" name="citizenship">
+                <div>
+                 <label for="tanzania">tanzania</label>
+                  <input type="radio" value="tanzania" id="tanzania" name="citizenship">
+                </div>
+        
+            </div>
+            <div><br>
+                <!-- marital status -->
+                <div><label for="marital status"><b>Marital Satus</b></label></div>
+                <label for="single">Single</label>
+                <input type="radio" value="single" id="sinlge" name="marital status">
+                <label for="married">Married</label>
+                <input type="radio" value="married" id="married" name="marital status">
+            </div><br>
+            <div>
+                <label for="address">Address</label>
+                <input type="text" name="address" placeholder="eg.Nairobi">
+            </div><br>
+            <label for="contact"> Contact:</label>
+            <input type="tel" placeholder="+254123456789">
+            <br><br>
+            <label for="email">email</label>
+            <input type="email" name="email" placeholder="someone@gmail.com">
+            <br><br>
+         <div>
+            <button type="submit">submit application</button> <br>
+         </div>
+        </div>
+    </form>
 </body>
 </html>
