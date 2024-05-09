@@ -17,12 +17,14 @@
         <div>
             <!-- personal info -->
             <h3><u>Personal information</u></h3>
-            <label for="firstname">First Name</label>
-            <input type="text" name="firstname" placeholder="firstname">
-            <label for="middlename">middlename</label>
-            <input type="text" name="middlename" placeholder="middlename">
-            <label for="lastname">Last Name</label>
-            <input type="text" name="last name" placeholder="last name">
+            <div>
+                <label for="firstname">First Name</label>
+                <input type="text" name="firstname" placeholder="firstname">
+                <label for="middlename">middlename</label>
+                <input type="text" name="middlename" placeholder="middlename">
+                <label for="lastname">Last Name</label>
+                <input type="text" name="last name" placeholder="last name">
+            </div>
             <br><br>
             <label for="date of birth"> D.O.B</label>
             <input type="date"><br><br>
@@ -45,19 +47,33 @@
                 <label for="married">Married</label>
                 <input type="radio" value="married" id="married" name="marital status">
             </div><br>
-            <div>
-                <label for="address">Address</label>
-                <input type="text" name="address" placeholder="eg.Nairobi">
-            </div><br>
-            <label for="contact"> Contact:</label>
-            <input type="tel" placeholder="+254123456789">
-            <br><br>
-            <label for="email">email</label>
-            <input type="email" name="email" placeholder="someone@gmail.com">
-            <br><br>
-         <div>
-            <button type="submit">submit application</button> <br>
-         </div>
+            <!-- <div>county of residence -->
+                <label for="County of residence"> County of Residence</label>
+                <select name="County of residence" id="County of residence">Nairobi
+                    <option value="Nairobi">Nairobi</option>
+                <option value="Nairobi">Machakos</option>
+                <option value="Nairobi">Muranga</option>
+                <option value="Nairobi">Nakuru</option>
+                </select>
+            </div>
+            <br>
+            <div>               
+                 <div>
+                     <!-- <div>contact -->
+                        <label for="contact"> Contact:</label>
+                        <input type="tel" placeholder="+254123456789">
+                 </div>
+                 <br>
+                </div>
+                <!-- <div>email -->
+                    <label for="email">email</label>
+                    <input type="email" name="email" placeholder="someone@gmail.com">
+                </div>
+                <br>
+               <br>
+                <div>
+                    <button type="submit">submit application</button>
+                 </div>
         </div>
     </form>
 </body>
